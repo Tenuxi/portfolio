@@ -1,0 +1,139 @@
+body {
+    background-color: #696969;
+    background-image: url("img/bg.png");
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+    padding-top: 20px;
+}
+
+h1 {
+    font-size: 22px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+p {
+    font-size: 14px;
+}
+
+h4 {
+    margin-top: 60px;
+    color: rgb(3, 3, 3);
+    font-size: 25px;
+}
+
+p {
+    color: #000000;
+    font-size: 16px;
+}
+
+.navigation {
+    overflow: hidden;
+    background-color: #3cb371;
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 45px;
+    border-top:1px solid #000;
+    border-bottom: 2px solid #000;
+}
+
+.navigation a {
+    float: left;
+    display: block;
+    color: #fff;
+    padding: 15px 15px;
+    font-size: 20px;
+    border-right: 1px solid #fff;
+    border-left: 0px solid #fff;
+}
+
+.navigation a:hover {
+    background-color: #696969;
+    color: #000;
+}
+
+.etusivu {
+    background-color: #f8f8ff;
+    margin-top: 50px;
+    min-height: 300px;
+    width: 95%;
+    border-radius: 5px;
+    border: 2px solid #000;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+}
+
+.koulutus {
+    background-color: #f8f8ff;
+    margin-top: 15px;
+    min-height: 300px;
+    width: 95%;
+    border-radius: 5px;
+    border: 2px solid #000;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.tyokokemus {
+    background-color: #f8f8ff;
+    margin-top: 15px;
+    width: 95%;
+    border-radius: 5px;
+    border: 2px solid #000;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.ittaidot {
+    background-color: #f8f8ff;
+    margin-top: 15px;
+    min-height: 300px;
+    width: 95%;
+    border-radius: 5px;
+    border: 2px solid #000;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.kortit {
+    background-color: #f8f8ff;
+    margin-top: 15px;
+    min-height:300px;
+    width: 95%;
+    position: relative;
+    border-radius: 5px;
+    border: 2px solid #000;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.harrastukset {
+    background-color: #f8f8ff;
+    margin-top: 15px;
+    min-height: 300px;
+    width: 95%;
+    border-radius: 5px;
+    border: 2px solid #000;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+
+.footer {
+    position: bottom;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #3cb371;
+    border-top: 2px solid #000;
+    border-bottom: 1px solid #000;
+    text-align: center;
+  }

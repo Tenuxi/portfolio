@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+/* VÄRITEEMA
+
+Tumman sininen #114B5F
+
+Raikkaampi sininen #456990
+
+Vihreä #E4FDE1
+
+Punainen #F45B69
+
+Tumman punainen #6B2737
+
+FONTIT
+
+font-family: 'Gugi', cursive;
+font-family: 'Josefin Sans', sans-serif;
+
+*/
+
+body {
+    background-color: #6B2737;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+header {
+    background-color: #114B5F;
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #114B5F;
+    -webkit-box-shadow: 0px 10px 5px 5px #114B5F; 
+    box-shadow: 0px 10px 5px 5px #114B5F;
+}
+
+#header {
+    text-shadow: 5px 6px 4px #456990;
+    color: #ffffff;
+    font-family: 'Gugi', cursive;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 1px;
+}
+
+p {
+    color: #131313;
+}
+
+nav {
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    text-align: center;
+    width: 100%;
+}
+
+a:hover { 
+    text-decoration: underline;
+    
+}
+
+ul, li {
+    padding-left: 15px;
+}
+
+main {
+    width: 100%;
+}
+
+.divit {
+    background-color: #ffffff;
+    padding-top: 15px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    border-top: 1px solid #F45B69;
+    border-bottom: 1px solid #F45B69;
+}
+
+#referenssit {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+footer {
+    background-color: #114B5F;
+    width: 100%;
+}
+
+#footer {
+    clear: both;
+    bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #ffffff;
+}
+
+@media only screen and (min-width: 768px) {
+
+    body {
+        margin-left: 5%;
+        width: 90%;
+    }
+
+    header {
+        margin-top: 15px;
+    }
+
+    main {
+        
+    }
+
+    #referenssit {
+        flex-direction: row;
+    }
+
+
+}
