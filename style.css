@@ -25,11 +25,24 @@ font-family: 'Josefin Sans', sans-serif;
 body {
     background-color: rgb(26, 25, 25);
     font-family: 'Josefin Sans', sans-serif;
+    font-size: 1em;
+}
+
+/*FONTIN KOOT*/
+.display-4, .h1, h1 {
+    font-size: 1.5em;
+}
+
+.h2, h2{
+    font-size: 1.35em;
+}
+
+.h3, h3{
+    font-size: 1.2em;
 }
 
 header {
     background-color: rgb(13, 113, 146);
-    font-size: 30px;
     text-align: center;
     width: 100%;
     margin-bottom: 20px;
@@ -37,14 +50,16 @@ header {
 }
 
 #header {
-    text-shadow: 5px 6px 4px #456990;
+    text-shadow: 5px 6px 4px #131313;
     color: #ffffff;
+    font-size: 3em;
     font-family: 'Gugi', cursive;
 }
 
 a {
     text-decoration: none;
-    color: #ffffff;
+    font-weight: bold;
+    color: #000000;
     margin-left: 1px;
 }
 
@@ -73,6 +88,11 @@ main {
     width: 100%;
 }
 
+#etusivu{
+    display: inline-block;
+    width: 100%;
+}
+
 .divit {
     background-color: #ffffff;
     padding-top: 15px;
@@ -80,21 +100,34 @@ main {
     padding-bottom: 20px;
     padding-left: 10px;
     margin-bottom: 20px;
-    border-top: 1px solid #F45B69;
-    border-bottom: 1px solid #F45B69;
+    border-top: 1px solid rgb(13, 113, 146);
+    border-bottom: 1px solid rgb(13, 113, 146);
+    border-radius: 3px;
 }
 
 #referenssit {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+#kortit{
+    padding-left: 55px;
+}
+
+#omaKuva{
+    display: block;
+    float: right;
+    width: 20%;
+    height: auto;
+    border-radius: 5px;
 }
 
 
 
-
-
 footer {
-    background-color: #114B5F;
     width: 100%;
 }
 
@@ -117,10 +150,6 @@ footer {
     header {
         margin-top: 15px;
         border-radius: 5px 5px 15px 15px;
-    }
-
-    main {
-        
     }
 
     #referenssit {

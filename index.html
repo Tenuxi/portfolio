@@ -30,124 +30,48 @@
 -->
 
 <main>
-    <!--ETUSIVU-->
+    <!--ETUSIVU ---------------------------------------------------------------------------------->
     <div id="etusivu" class="divit">
         <h1>Joonas Aaltonen</h1>
+        <img id="omaKuva" src="oma_kuva.jpg" alt="Kuva">
         <br>
-        <p>Ikä:</p>
-        <p>Paikkakunta:</p>
+        <p><strong>Ikä:</strong> 32v.</p>
+        <p><strong>Paikkakunta:</strong> Kerava</p>
         <br>
         <p>Opiskelen tällä hetkellä Helsinki Business Collegessa "Full Stack Webdeveloperiksi".</p>
+        <p>Olen aloittanut opiskelut helmikuussa 2019 ja valmistumisen pitäisi olla joulukuussa 2019.</p>
+        <br>
+        <button type="button" class="btn btn-info" href="cv_Joonas_Aaltonen.pdf" onclick="window.location = 'cv_Joonas_Aaltonen.pdf';" alt="cv_joonas_aaltonen">CV ladattavana .pdf muodossa</button>
         
 
     </div>
 
-    <!--KOULUTUS-->
+    <!--KOULUTUS ---------------------------------------------------------------------------------->
     <div id="Koulutus" class="divit">
+        <h1 class="display-4">Koulutus</h1>
 
-        <h1>Koulutus</h1>
-        <br>
+        <div class="alert alert-primary" role="alert">
         <h2>Helsinki Business College, 2019</h2>
-        <p id="tutkinto">Full Stack Webdeveloper (Opiskelen paraikaa)</p>
-        <br>
-        <hr>
-        <h2>Riihimäen ammattioppilaitos, 2007</h2>
-        <p id="tutkinto">Logistiikan perustutkinto</p>
-        <br>
-        <hr>       
+        <p id="tutkinto">Full Stack Webdeveloper (Opiskelen)</p>
+        </div>
+        
+        <div class="alert alert-success" role="alert">
+            <h2>Riihimäen ammattioppilaitos, 2007</h2>
+            <p id="tutkinto">Logistiikan perustutkinto</p>
+        </div>
+        
+        <div class="alert alert-warning" role="alert">       
         <h2>Riihimäen ammattioppilaitos, 2002 – 2003, 80/120 op, tutkinto kesken</h2>
         <p id="tutkinto">Metallialan perustutkinto</p>
+        </div>
     </div>
 
 
-<!--
-TYÖKOKEMUS
-<div id="tyokokemus" class="divit">
-    <h1>TYÖKOKEMUS</h1>
-<br>
-    <h2>Trans Svahn, 10/2017 – 02/2019</h2>
-    <p>Kuorma-autonkuljettaja</p>
-    <p>Kaukokiito, Linström</p>
-<br>   
-    <h2>Hattulan kuljetus, 02/2017 – 10/2017</h2>
-    <p>Kuorma-autonkuljettaja</p>
-    <p>Postnord, DPD, </p>
-<br>        
-    <h2>Duolog, 09/2016 - 11/2016</h2>
-    <p>Kuorma-autonkuljettaja</p>
-    <p>Postin jakelua, Ruokien jakoa</p>
-<br>        
-    <h2>Hyvinkään – Riihimäen Seudun Ammattikoulutussäätiö, 02/2014 - 12/2014</h2>
-    <p>Nuorempi ammattimies</p>
-    <p>Varaston ylläpito, Erilaiset remontti keikat, Autojen huollot ja Kiinteistön hoitotyöt</p>
-<br>
-    <h2>Viherrakennus Lehto Oy, 2011 – 2012 (Talvi)</h2>
-    <p>Lumityöntekijä</p>
-    <p>Lumityöt koneella ja käsin.</p>
-<br>
-    <h2>Draiv´in Markkinointi Oy, 10/2011 – 12/2011</h2>
-    <p>Myyjä</p>
-    <p>B2B Myyntiä puhelimitse ja tapaamisten sopimista.</p>	
-<br>
-    <h2>Kaupantekokone Oy, 04/2011 – 07/2011</h2>
-    <p>Puhelinmyyjä</p>
-    <p>B2B Myyntiä puhelimitse.</p>		
-<br>
-    <h2>Saint-Gobain Weber oy ab Oitin harkkotehtaat, 07/2010 – 11/2010</h2>
-    <p>Tuotantotyöntekijä</p>
-    <p>Pyöräkuormaajan ja trukinajoa.</p>
-<br>
-    <h2>Tapio siemenkeskus, 05/2010 – 06/201</h2>0
-    <p>Metsän istuttaja</p>
-<br>
-    <h2>ART-Kuljetus, 06/2009 – 08/2009</h2>
-    <p>Jakeluauton kuljettaja</p>
-    <p>Shencerin, TNTn ja UPKn pakettien jakoa.</p>
-<br>
-    <h2>Ilves Jakelu Oy, 02/2009 – 06/2009</h2>
-    <p>Lehdenjakaja</p>
-    <p>Aamuposti, Hämeen sanomat, Helsingin sanomat, Aamulehti yms.</p>
-<br>
-    <h2>Kanta-Hämeen sairaanhoitopiirin Ravintopalvelu, 03/2008 – 01/2009</h2>
-    <p>Siviilipalvelus</p>
-    <p>Tavaranvastaanotto , Varastointi</p>
-<br>
-    <h2>Kone Oy, 10/2007 – 02/2008</h2>
-    <p>Kokoonpanija</p>
-    <p>Hissin moottorien kasausta.</p>
-<br>
-    <h2>L & J Alastalo Oy, 2007</h2>
-    <p>Jakeluauton kuljettaja</p>
-    <p>Vihannesten kuljetusta.</p>
-<br>
-    <h2>Kuljetus Jussila Oy, 03/2006 – 06/2007</h2>
-    <p>Jakeluauton kuljettaja</p>
-    <p>Fazerin ja shencerin ajoa.</p>
-<br>
-    <h2>Lidl Suomi Ky, 04/2005 – 07/2005</h2>
-    <p>Keräilijä</p>
-    <p>Keskusvarastolla tuotteiden keräilyä.</p>
-<br>
-    <h2>Asennusliike Juha Moilanen Oy, 12/2004 – 12/2004</h2>
-    <p>Varastonhoitajan sijainen</p>
-    <p>Keskon kuormahyllyjen keräilyä, Lastausta ja purkua.</p>
-<br>
-    <h2>Sako Oy, 06/2004 – 07/2004</h2>
-    <p>Kokoonpanija</p>
-    <p>Hiekkapuhallusta ja mustausta</p>
-<br>
-    <h2>Sako Oy, 06/2003 – 07/2003</h2>
-    <p>Kokoonpanija</p>
-    <p>Hiekkapuhallusta ja mustausta</p>
-
-</div>
--->
 
 
-
-    <!--TYÖKOKEMUS-->
+    <!--TYÖKOKEMUS ---------------------------------------------------------------------------------->
     <div id="tyokokemus" class="divit accordion">
-            <h1 class="display-4">TYÖKOKEMUS</h1>
+            <h1 class="display-4">Työkokemus</h1>
 
             <div class="card">
                 <div class="card-header" id="headingOne">
@@ -162,7 +86,7 @@ TYÖKOKEMUS
                   <div class="card-body">
                     <h4>10/2017 – 02/2019</h4>
                     <h4>Kuorma-auton kuljettaja</h4>
-                    <p>Kaukokiito, Linström</p>
+                    <p>Kaukokiito, Linstdröm</p>
                   </div>
                 </div>
             </div>
