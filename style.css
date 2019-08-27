@@ -23,19 +23,17 @@ font-family: 'Josefin Sans', sans-serif;
 */
 
 body {
-    background-color: #6B2737;
+    background-color: rgb(26, 25, 25);
     font-family: 'Josefin Sans', sans-serif;
 }
 
 header {
-    background-color: #114B5F;
+    background-color: rgb(13, 113, 146);
     font-size: 30px;
     text-align: center;
     width: 100%;
     margin-bottom: 20px;
     border-bottom: 1px solid #114B5F;
-    -webkit-box-shadow: 0px 10px 5px 5px #114B5F; 
-    box-shadow: 0px 10px 5px 5px #114B5F;
 }
 
 #header {
@@ -118,6 +116,7 @@ footer {
 
     header {
         margin-top: 15px;
+        border-radius: 5px 5px 15px 15px;
     }
 
     main {
